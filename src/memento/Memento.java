@@ -5,11 +5,11 @@ public class Memento {
 
   public Memento() {}
 
-  public Memento(String state) {
+  protected Memento(String state) {
       this.state = state;
   }
 
-  public String getState() {
+  protected String getState() {
       return state;
   } 
 }
